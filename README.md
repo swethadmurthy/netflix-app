@@ -6,14 +6,20 @@
 - Routing of App
 - Login Form
 - Sign up Form
+- Form Validation
+- useRef Hook
+- fireBase Setup
+- Deployed app to production
+- Created SignUp User Account
+- Implemented Sign In user Api
+- Created Redux Store with userSlice
+- Implemented Sign out 
+- Update Profile
 
 # Features
 - Login/Sign Up
     - Sign In /Sign up Form
     - redirect to Browse Page
-
-
-
 
 
 ## Project Setup
@@ -47,3 +53,7 @@ Install Tailwind CSS
  Install React Router
 
 ### npm i -D react-router-dom
+
+Install React Redux
+
+### npm i react-redux
