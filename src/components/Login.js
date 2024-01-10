@@ -14,7 +14,6 @@ const Login = () => {
 
     const [isSignInForm , setIsSignInForm] = useState(true);
     const [errormessage, setErrorMessage] = useState(null);
-    const navigate = useNavigate();
     const dispatch = useDispatch();
 
 
@@ -47,9 +46,8 @@ const Login = () => {
                     uid: uid, 
                     email: email,
                     displayName: displayName,
-                    photoURL: photoURL }
-                    ));
-                      navigate("/browse");
+                    photoURL: photoURL 
+                    }));
                  })
             .catch((error) => {
               setErrorMessage(error.message);
